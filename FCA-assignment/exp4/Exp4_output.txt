@@ -1,0 +1,20 @@
+FCA Experiment 4: Bit Tricks
+CPU frequency: 240 MHz
+Repetitions: 1000
+
+--- Test A: Division versus Right Shift ---
+x / 8 | Raw cycles: 13283 | Baseline: 8003 | Estimated cycles/op: 5.280 | Result: 15432
+x >> 3 | Raw cycles: 11283 | Baseline: 8003 | Estimated cycles/op: 3.280 | Result: 15432
+
+--- Test B: Remainder versus Bit Mask ---
+x % 16 | Raw cycles: 16283 | Baseline: 8003 | Estimated cycles/op: 8.280 | Result: 0
+x & 15 | Raw cycles: 11284 | Baseline: 8003 | Estimated cycles/op: 3.281 | Result: 0
+
+--- Test C: Constant versus Volatile Divisor ---
+x / 8 (constant) | Raw cycles: 13898 | Baseline: 8003 | Estimated cycles/op: 5.895 | Result: 15432
+x / divisor (volatile) | Raw cycles: 19284 | Baseline: 8003 | Estimated cycles/op: 11.281 | Result: 15432
+
+--- Test D: Negative Integer Behaviour ---
+-9 / 8 = -1
+-9 >> 3 = -2
+Negative signed right-shift behaviour is implementation-defined.

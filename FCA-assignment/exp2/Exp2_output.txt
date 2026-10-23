@@ -1,0 +1,42 @@
+FCA EXPERIMENT 2
+IS SMALLER FASTER?
+==============================
+CPU Frequency: 240 MHz
+Iterations per run: 10000
+Runs per test: 5
+Reported value: median estimated cycles/op
+Baseline subtraction is approximate.
+
+ADDITION TEST
+8-bit addition | Median estimated cycles/op: 13.003 | Last raw cycles: 330971 | Last baseline: 200947
+  Result: 12
+16-bit addition | Median estimated cycles/op: 16.098 | Last raw cycles: 360971 | Last baseline: 200941
+  Result: 1005
+32-bit addition | Median estimated cycles/op: 13.093 | Last raw cycles: 331867 | Last baseline: 200028
+  Result: 100010
+64-bit addition | Median estimated cycles/op: 24.091 | Last raw cycles: 441887 | Last baseline: 200941
+  Result: 1000000010
+
+MULTIPLICATION TEST
+8-bit multiplication | Median estimated cycles/op: 13.998 | Last raw cycles: 340927 | Last baseline: 200949
+  Result: 20
+16-bit multiplication | Median estimated cycles/op: 17.093 | Last raw cycles: 371865 | Last baseline: 200939
+  Result: 5000
+32-bit multiplication | Median estimated cycles/op: 14.002 | Last raw cycles: 340963 | Last baseline: 200939
+  Result: 1000000
+64-bit multiplication | Median estimated cycles/op: 26.098 | Last raw cycles: 461881 | Last baseline: 200026
+  Result: 10000000000
+
+DIVISION TEST
+8-bit signed division | Median estimated cycles/op: 23.091 | Last raw cycles: 431909 | Last baseline: 200947
+  Result: 5
+16-bit signed division | Median estimated cycles/op: 26.091 | Last raw cycles: 461822 | Last baseline: 200924
+  Result: 200
+32-bit signed division | Median estimated cycles/op: 19.089 | Last raw cycles: 391827 | Last baseline: 200923
+  Result: 10000
+64-bit signed division | Median estimated cycles/op: 117.484 | Last raw cycles: 1374840 | Last baseline: 200942
+  Result: 100000000
+32-bit unsigned division | Median estimated cycles/op: 19.179 | Last raw cycles: 391820 | Last baseline: 200032
+  Result: 10000
+
+Experiment completed.

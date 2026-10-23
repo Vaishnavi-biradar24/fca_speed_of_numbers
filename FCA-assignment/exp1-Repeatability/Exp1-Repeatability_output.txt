@@ -1,0 +1,20 @@
+FCA Experiment 1 - Repeatability
+CPU Frequency: 240 MHz
+
+Operations: 10
+Trial 1 | Baseline: 93 | Total: 187 | Estimated cycles/op: 9.400
+Trial 2 | Baseline: 93 | Total: 187 | Estimated cycles/op: 9.400
+Trial 3 | Baseline: 93 | Total: 187 | Estimated cycles/op: 9.400
+Trial 4 | Baseline: 93 | Total: 187 | Estimated cycles/op: 9.400
+Trial 5 | Baseline: 93 | Total: 187 | Estimated cycles/op: 9.400
+Final result: 30
+
+Operations: 1000
+Trial 1 | Baseline: 9003 | Total: 18007 | Estimated cycles/op: 9.004
+Trial 2 | Baseline: 9918 | Total: 18007 | Estimated cycles/op: 8.089
+Trial 3 | Baseline: 9003 | Total: 18007 | Estimated cycles/op: 9.004
+Trial 4 | Baseline: 9003 | Total: 18007 | Estimated cycles/op: 9.004
+Trial 5 | Baseline: 9003 | Total: 18007 | Estimated cycles/op: 9.004
+Final result: 30
+
+Test complete. Reset board to repeat.

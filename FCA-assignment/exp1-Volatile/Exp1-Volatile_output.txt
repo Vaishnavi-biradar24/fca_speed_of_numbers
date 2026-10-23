@@ -1,0 +1,7 @@
+FCA Experiment 1 - Volatile Test
+CPU Frequency:
+240
+Volatile cycles: 13288
+Volatile result: 30
+Non-volatile cycles: 15
+Non-volatile result: 30

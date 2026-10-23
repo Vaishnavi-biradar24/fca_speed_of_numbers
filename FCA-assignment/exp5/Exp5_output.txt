@@ -1,0 +1,32 @@
+EXPERIMENT 5: FIXED-POINT VS FLOAT
+--------------------------------
+Q16.16 REPRESENTATION
+3.75 encoded = 245760
+-1.25 encoded = -81920
+Minimum Q16.16 = -32768.00000
+Maximum Q16.16 = 32767.99998
+
+ADDITION TEST
+Fixed addition = 3.5000
+Float addition = 3.5000
+Fixed addition total cycles = 131212
+Float addition total cycles = 151113
+
+MULTIPLICATION TEST
+Fixed multiplication = 3.0000
+Float multiplication = 3.0000
+Fixed multiplication total cycles = 241193
+Float multiplication total cycles = 151211
+
+DIVISION TEST
+Fixed division = 0.7500
+Float division = 0.7500
+Fixed division total cycles = 1114860
+Float division total cycles = 583590
+
+ACCURACY TEST
+Double reference = 0.75000000
+Fixed absolute error = 0.00000000
+Float absolute error = 0.00000000
+
+Experiment completed.

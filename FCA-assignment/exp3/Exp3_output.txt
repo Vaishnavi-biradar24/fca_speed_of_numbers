@@ -1,0 +1,24 @@
+FCA Experiment 3: Float vs Double
+CPU frequency: 240
+Repetitions: 1000
+Float addition | Raw cycles: 13815 | Baseline: 10570 | Estimated cycles/op: 3.245
+15.750000
+Double addition | Raw cycles: 77530 | Baseline: 20004 | Estimated cycles/op: 57.526
+15.75000000
+Float multiplication | Raw cycles: 13576 | Baseline: 10004 | Estimated cycles/op: 3.572
+42.875000
+Double multiplication | Raw cycles: 128566 | Baseline: 20004 | Estimated cycles/op: 108.562
+42.87500000
+Float division | Raw cycles: 60566 | Baseline: 10004 | Estimated cycles/op: 50.562
+3.500000
+Double division | Raw cycles: 529409 | Baseline: 20004 | Estimated cycles/op: 509.405
+3.50000000
+Float sqrtf | Raw cycles: 90982 | Baseline: 10004 | Estimated cycles/op: 80.978
+3.500000
+Double sqrt | Raw cycles: 751693 | Baseline: 20004 | Estimated cycles/op: 731.689
+3.50000000
+x * 0.5f raw cycles: 11294
+x * 0.5 raw cycles: 11004
+These raw timings include loop overhead.
+Int32 addition raw cycles: 13288
+Result: 13023
